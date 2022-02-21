@@ -6,7 +6,7 @@ Code repository for *paper name*.
 
 ## Set up 
 ``` 
-git clone  
+git clone https://github.com/SudhanshuAgrawal27/NonlocalMFGPrimalDual.git
 ```
 
 The experiment set up can be modified in the `primal-dual.jl` file. 
