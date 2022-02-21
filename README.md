@@ -1,8 +1,6 @@
 # Nonlocal MFG Primal Dual 
 
-Code repository for *paper name*. 
-
-
+Code repository for [*Random Features for High-Dimensional Nonlocal Mean-Field Games*]().
 
 ## Set up 
 ``` 
