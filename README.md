@@ -4,7 +4,7 @@ Code repository for [*Random Features for High-Dimensional Nonlocal Mean-Field G
 
 ## Set up 
 ``` 
-git clone https://github.com/SudhanshuAgrawal27/NonlocalMFGPrimalDual.git
+git clone https://github.com/SudhanshuAgrawal27/HighDimNonlocalMFG
 ```
 
 The experiment set up can be modified in the `primal-dual.jl` file. 
