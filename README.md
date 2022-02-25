@@ -14,7 +14,7 @@ Once the parameters are set, the experiment can simply be run using
 julia primal-dual.jl
 ```
 Plots generated during training are stored in `./figures` and the results are stored in `./data`. 
-
+<!-- 
 ## Reference
 
 Please cite as  
@@ -28,7 +28,7 @@ Please cite as
       volume = {},
       url = {},
       pages = {}
-    }
+    } -->
 
 ## Acknowledgements 
 Wonjun Lee, Levon Nurbekyan, and Samy Wu Fung were partially funded by AFOSR MURI FA9550-18-502, ONR N00014-18-1-2527, N00014-18-20-1-2093, and N00014-20-1-2787.
