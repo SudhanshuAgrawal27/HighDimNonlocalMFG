@@ -31,6 +31,6 @@ Please cite as
     }
 
 ## Acknowledgements 
-
+Wonjun Lee, Levon Nurbekyan, and Samy Wu Fung were partially funded by AFOSR MURI FA9550-18-502, ONR N00014-18-1-2527, N00014-18-20-1-2093, and N00014-20-1-2787.
 
 
