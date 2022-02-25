@@ -7,11 +7,13 @@ Code repository for [*Random Features for High-Dimensional Nonlocal Mean-Field G
 git clone https://github.com/SudhanshuAgrawal27/HighDimNonlocalMFG
 ```
 
-The experiment set up can be modified in the `primal-dual.jl` file. 
+There are two experiments - one involving the 8 Gaussian distributions and one involving a bottleneck. 
 
-Once the parameters are set, the experiment can simply be run using 
+The set ups of the experiments can be modified in the `eight-gaussians.jl` and `bottleneck.jl` files 
+
+Once the parameters are set, experiments can simply be run using 
 ```
-julia primal-dual.jl
+julia eight-gaussians.jl
 ```
 Plots generated during training are stored in `./figures` and the results are stored in `./data`. 
 <!-- 
