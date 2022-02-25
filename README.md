@@ -1,4 +1,4 @@
-# Nonlocal MFG Primal Dual 
+# HighDimNonlocalMFG
 
 Code repository for [*Random Features for High-Dimensional Nonlocal Mean-Field Games*]().
 
