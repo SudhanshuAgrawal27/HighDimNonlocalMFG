@@ -395,4 +395,58 @@ end
 writefilenameparam = "./data/primal-dual-bottleneck-d-$(d)-d_-$(d_)-sigma-$(ind_sigma_value)-mu-$(μ)-N-$(nTrain)-nBasis-$(nBasis)-param.txt"
 writedlm(writefilenameparam, [nTrain, nTSteps, d, nBasis, ind_sigma_value, μ,  X0, vel])
 
+## Save plots of the trajectories at every time step to make a gif
+
+# p1 = plot()
+# # plotting recipe
+# default( tickfont = (4, "arial", :grey),
+#          guidefont  = (4, "arial", :black),
+#          legendfont = (4, "arial", :grey),
+#          titlefont =  (7, "arial", :grey),
+#          legend = false,
+#          xformatter = :plain,
+#          yminorgrid = true,
+#          dpi = 350,
+#          linewidth = 1.5,
+#          markersize = 3.0,
+#         )
+# # plotting grid parameters
+# domain = [-2.5 2.5 -2.5 2.5]
+# n = [256 256]
+# MM = getRegularMesh(domain, n)
+# Xc = Matrix(getCellCenteredGrid(MM)')
+#
+# # generate trajectories for each agent
+# Ztraj = getZv2(vel, X0, 8)
+# XX = Ztraj[:,:,1:4:end]
+# nEx = size(XX, 3)
+# nT = size(XX, 2)
+#
+# for t in 1:size(XX, 2)
+#     p1 = viewImage2D(Q_plot(Xc), MM, aspect_ratio = :equal, c = :amp)
+#     plot!(p1)
+#     for k = 1:nEx
+#         plot!(
+#             p1,
+#             [XX[1, t, k]],
+#             [XX[2, t, k]],
+#             legend = false,
+#             linewidth = 1,
+#             seriestype = [:scatter,:path],
+#             linecolor = :lightblue,
+#             aspect_ratio = :equal,
+#             markersize = 3,
+#             markeralpha = 0.4,
+#             markercolor = :lightblue,
+#             markerstrokewidth = 1,
+#             markerstrokealpha = 1,
+#             markerstrokecolor = :black,
+#             markerstrokestyle = :dot
+#         )
+#     end
+#     p1 = plot!(size=(340,360))
+#     display(p1)
+#     savefig("./gif/plot$(t)")
+# end
+
 ## End of code
