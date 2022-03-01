@@ -32,7 +32,7 @@ ind_sigma_value = 1.25 * sqrt(d/2)  # sigma value scaled by dimension
 
 epochs = 10000          # number of iterations
 ha = 0.6                # step size for a coefficient updates
-hv = 0.6                # momentum for a coefficient updates
+hv = 0.6                # step size for velocity updates
 hvtemp = 1.0
 
 
