@@ -29,9 +29,7 @@ year = {2022},
 issn = {0021-9991},
 doi = {https://doi.org/10.1016/j.jcp.2022.111136},
 url = {https://www.sciencedirect.com/science/article/pii/S002199912200198X},
-author = {Sudhanshu Agrawal and Wonjun Lee and Samy {Wu Fung} and Levon Nurbekyan},
-keywords = {Mean-field games, Nonlocal interactions, Random features, Optimal control, Hamilton-Jacobi-Bellman},
-abstract = {We propose an efficient solution approach for high-dimensional nonlocal mean-field game (MFG) systems based on the Monte Carlo approximation of interaction kernels via random features. We avoid costly space-discretizations of interaction terms in the state-space by passing to the feature-space. This approach allows for a seamless mean-field extension of virtually any single-agent trajectory optimization algorithm. Here, we extend the direct transcription approach in optimal control to the mean-field setting. We demonstrate the efficiency of our method by solving MFG problems in high-dimensional spaces which were previously out of reach for conventional non-deep-learning techniques.}
+author = {Sudhanshu Agrawal and Wonjun Lee and Samy {Wu Fung} and Levon Nurbekyan}
 }
 ```
 ## Acknowledgements 
