@@ -20,7 +20,7 @@ Plots generated during training are stored in `./figures` and the results are st
 
 Please cite as  
 ```
-@article{random-features-nonlocal-mfgs,
+@article{randomfeaturesmfgs,
 title = {Random features for high-dimensional nonlocal mean-field games},
 journal = {Journal of Computational Physics},
 volume = {459},
