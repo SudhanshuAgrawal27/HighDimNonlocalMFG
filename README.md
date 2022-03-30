@@ -1,6 +1,6 @@
 # HighDimNonlocalMFG
 
-Code repository for [*Random Features for High-Dimensional Nonlocal Mean-Field Games*](https://www.sciencedirect.com/science/article/pii/S002199912200198X).
+Code repository for [*Random Features for High-Dimensional Nonlocal Mean-Field Games*](https://www.sciencedirect.com/science/article/pii/S002199912200198X?dgcid=coauthor).
 
 You can find an explanatory [*blog-post*](https://medium.com/@sudhanshuagrawal2001/100-dimensional-games-de3eb78b1e05) on this paper published on Medium.
 
