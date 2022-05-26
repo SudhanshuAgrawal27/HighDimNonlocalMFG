@@ -1,6 +1,6 @@
 # HighDimNonlocalMFG
 
-Code repository for [*Random Features for High-Dimensional Nonlocal Mean-Field Games*](https://www.sciencedirect.com/science/article/pii/S002199912200198X?dgcid=coauthor).
+Code repository for [*Random Features for High-Dimensional Nonlocal Mean-Field Games*](https://www.sciencedirect.com/science/article/pii/S002199912200198X?dgcid=coauthor), published in the Journal of Computational Physics. 
 
 The [*arXiv*](https://arxiv.org/abs/2202.12529) pre-print of this paper is also available. 
 
